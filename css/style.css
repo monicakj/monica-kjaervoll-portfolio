@@ -1,0 +1,290 @@
+.hero img {
+  height: auto;
+  width: 100%;
+}
+
+.recent-work-container {
+  padding-bottom: 100px;
+  background-color: #22333B;
+}
+
+.recent-work-container img {
+  padding: 1rem;
+}
+
+.recent-work-container img:hover {
+  transform: scale(1.05);
+  transition: 0.5s ease;
+}
+
+.recent-work-container .card {
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+.recent-work-container .card-body {
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.recent-work-description {
+  text-align: center;
+  color: white;
+  padding: 5rem;
+}
+
+.cta {
+  position: relative;
+  background-color: #DAD7CD;
+  height: 300px;
+}
+
+.cta .cta-content {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: fit-content;
+}
+
+.cta h5 {
+  margin-bottom: 30px;
+}
+
+.button {
+  width: 200px;
+  height: 48px;
+  border-radius: 5px;
+  border: none;
+  transition: 0.5s;
+}
+
+.button-discover {
+  background-color: #22333B;
+  margin-right: 20px;
+  color: white;
+}
+
+.button-discover:hover {
+  background-color: white;
+  color: #22333B;
+  border: 1px solid #22333B;
+}
+
+.button-contact {
+  background-color: white;
+  color: #22333B;
+  border: 1px solid #22333b;
+}
+
+.button-contact:hover {
+  background-color: #22333B;
+  color: white;
+}
+
+.about-main h1 {
+  margin: 50px 0 50px 0;
+}
+
+.about-container {
+  background-color: #F2F4F3;
+  height: fit-content;
+  margin-bottom: 73px;
+}
+
+.about-container .about-img img {
+  width: 75%;
+}
+
+.about-container .about-description {
+  padding-top: 162px;
+}
+
+.about-container .about-description p {
+  width: fit-content;
+}
+
+.skills-container {
+  background-color: #DAD7CD;
+  height: fit-content;
+  margin-bottom: 73px;
+  padding-bottom: 100px;
+}
+
+.skills-container .skills-col {
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.skills-container h3 {
+  padding: 44px 0 44px 0;
+}
+
+.skills-container .card {
+  margin-right: 1%;
+}
+
+.skills-container .card img {
+  width: 100%;
+  padding: 30px;
+}
+
+.skills-container .card-text, .skills-container .card-title {
+  padding-left: 10px;
+}
+
+.skills-container .card-text {
+  padding-bottom: 20px;
+}
+
+.work-main {
+  background-color: #22333B;
+}
+
+.work-main .container {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.work-main h1 {
+  color: white;
+}
+
+.work-main .card {
+  margin-bottom: 100px;
+  border: none;
+  margin-top: 50px;
+}
+
+.work-main .card-body {
+  background-color: #f2f4f3;
+}
+
+.work-main .work-btn {
+  width: 200px;
+  height: 48px;
+  border-radius: 5px;
+  border: 1px solid #22333B;
+  background-color: #22333B;
+  color: white;
+}
+
+.work-main .work-btn:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: #22333B;
+  transition: 0.5s;
+}
+
+.work-main .cta {
+  position: relative;
+  height: 200px;
+}
+
+.work-main .col {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: fit-content;
+}
+
+.contact-main {
+  background-color: #DAD7CD;
+  height: fit-content;
+  padding-bottom: 100px;
+}
+
+.contact-main h1 {
+  padding-top: 50px;
+}
+
+.contact-main img {
+  padding-top: 50px;
+}
+
+.contact-container {
+  margin-top: 25%;
+  margin-left: 20%;
+}
+
+.contact-container label {
+  font-weight: bold;
+}
+
+.contact-container input[type="text"],
+.contact-container select,
+.contact-container textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #000;
+  margin: 6px 0 15px 0;
+  resize: vertical;
+}
+
+.contact-container input[type="submit"] {
+  background-color: black;
+  color: white;
+  height: 48px;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid black;
+  transition: 0.5s;
+}
+
+.contact-container input[type="submit"]:hover {
+  background-color: white;
+  color: black;
+}
+
+.contact-details {
+  margin-top: 20%;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-weight: bold;
+}
+
+.nav-link {
+  text-transform: lowercase;
+}
+
+.navbar-nav {
+  margin: 0 auto;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  height: 300px;
+  text-align: center;
+  justify-content: center;
+}
+
+.footer h4 {
+  padding-top: 77px;
+}
+
+.footer hr {
+  color: white;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 44px;
+}
+
+.footer p {
+  padding-top: 50px;
+}
+/*# sourceMappingURL=style.css.map */

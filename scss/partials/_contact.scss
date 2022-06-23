@@ -1,0 +1,54 @@
+.contact-main {
+    background-color: #DAD7CD;
+    height: fit-content;
+    padding-bottom: 100px;
+
+    h1 {
+        padding-top: 50px;
+    }
+
+    img {
+        padding-top: 50px;
+    }
+
+}
+
+.contact-container {
+    margin-top: 25%;
+    margin-left: 20%;
+
+    label {
+        font-weight: bold;
+    }
+
+    input[type="text"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #000;
+            margin: 6px 0 15px 0;
+            resize: vertical;
+        }
+    
+        // SUBMIT BUTTON
+        input[type="submit"] {
+            background-color: black;
+            color: white;
+            height: 48px;
+            width: 100%;
+            cursor: pointer;
+            border: 1px solid black;
+            transition: 0.5s;
+        }
+    
+        input[type="submit"]:hover {
+            background-color: white;
+            color: black;
+        }
+    
+}
+
+.contact-details {
+    margin-top: 20%;
+}

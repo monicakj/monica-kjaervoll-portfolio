@@ -1,0 +1,60 @@
+.about-main {
+    h1 {
+        margin: 50px 0 50px 0;
+    }
+}
+
+.about-container {
+    background-color: #F2F4F3;
+    height: fit-content;
+    margin-bottom: 73px;
+
+    .about-img img {
+        // height: 636px;
+        // width: 510px;
+        width: 75%;
+    }
+
+    .about-description {
+        padding-top: 162px;
+
+        p {
+            width: fit-content;
+        }
+    }
+}
+
+.skills-container {
+    background-color: #DAD7CD;
+    height: fit-content;
+    margin-bottom: 73px;
+    padding-bottom: 100px;
+
+    .skills-col {
+        justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    h3 {
+        padding: 44px 0 44px 0;
+        // margin-bottom: 27px;
+    }
+
+    .card {
+        margin-right: 1%;
+    }
+
+    .card img {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .card-text, .card-title {
+        padding-left: 10px;
+    }
+
+    .card-text {
+        padding-bottom: 20px;
+    }
+}
