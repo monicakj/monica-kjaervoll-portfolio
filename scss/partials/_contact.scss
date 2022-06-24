@@ -11,10 +11,34 @@
         padding-top: 50px;
     }
 
+    @media only screen and (max-width: 768px) {
+    .row {
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+    .contact-container {
+        margin-left: 0;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .col-5 {
+        width: 100%;
+    }
+
+    .col-6 {
+        width: 100%;
+    }
+
+}
+
 }
 
 .contact-container {
-    margin-top: 25%;
+    // margin-top: 25%;
     margin-left: 20%;
 
     label {
@@ -52,3 +76,4 @@
 .contact-details {
     margin-top: 20%;
 }
+

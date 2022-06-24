@@ -1,7 +1,25 @@
 .about-main {
+    background-color: #F2F4F3;
+
     h1 {
-        margin: 50px 0 50px 0;
+        padding: 50px 0 50px 0;
     }
+
+@media only screen and (max-width: 425px) {
+    .row {
+        display: inline-flex;
+            flex-direction: column;
+    }
+
+    .about-img {
+        width: 100%;
+    }
+
+    .about-description {
+        width: 100%;
+        margin-top: 60px;
+    }
+}
 }
 
 .about-container {
@@ -12,11 +30,11 @@
     .about-img img {
         // height: 636px;
         // width: 510px;
-        width: 75%;
+        width: 100%;
     }
 
     .about-description {
-        padding-top: 162px;
+        padding-top: 0px;
 
         p {
             width: fit-content;
@@ -27,7 +45,7 @@
 .skills-container {
     background-color: #DAD7CD;
     height: fit-content;
-    margin-bottom: 73px;
+    // margin-bottom: 73px;
     padding-bottom: 100px;
 
     .skills-col {

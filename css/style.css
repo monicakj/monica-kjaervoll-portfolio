@@ -18,8 +18,8 @@
 }
 
 .recent-work-container .card {
-  background-color: transparent;
-  color: white;
+  background-color: #fff;
+  color: black;
   border: none;
 }
 
@@ -55,6 +55,10 @@
   margin-bottom: 30px;
 }
 
+.cta a {
+  text-decoration: none;
+}
+
 .button {
   width: 200px;
   height: 48px;
@@ -86,8 +90,26 @@
   color: white;
 }
 
+.about-main {
+  background-color: #F2F4F3;
+}
+
 .about-main h1 {
-  margin: 50px 0 50px 0;
+  padding: 50px 0 50px 0;
+}
+
+@media only screen and (max-width: 425px) {
+  .about-main .row {
+    display: inline-flex;
+    flex-direction: column;
+  }
+  .about-main .about-img {
+    width: 100%;
+  }
+  .about-main .about-description {
+    width: 100%;
+    margin-top: 60px;
+  }
 }
 
 .about-container {
@@ -97,11 +119,11 @@
 }
 
 .about-container .about-img img {
-  width: 75%;
+  width: 100%;
 }
 
 .about-container .about-description {
-  padding-top: 162px;
+  padding-top: 0px;
 }
 
 .about-container .about-description p {
@@ -111,7 +133,6 @@
 .skills-container {
   background-color: #DAD7CD;
   height: fit-content;
-  margin-bottom: 73px;
   padding-bottom: 100px;
 }
 
@@ -163,6 +184,7 @@
 
 .work-main .card-body {
   background-color: #f2f4f3;
+  padding-bottom: 30px;
 }
 
 .work-main .work-btn {
@@ -181,19 +203,10 @@
   transition: 0.5s;
 }
 
-.work-main .cta {
-  position: relative;
-  height: 200px;
-}
-
-.work-main .col {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  width: fit-content;
+.work-main .card-img {
+  padding: 1rem;
+  margin-top: 30px;
+  background-color: white;
 }
 
 .contact-main {
@@ -210,8 +223,26 @@
   padding-top: 50px;
 }
 
+@media only screen and (max-width: 768px) {
+  .contact-main .row {
+    display: inline-flex;
+    flex-direction: column;
+  }
+  .contact-main .contact-container {
+    margin-left: 0;
+  }
+  .contact-main img {
+    width: 100%;
+  }
+  .contact-main .col-5 {
+    width: 100%;
+  }
+  .contact-main .col-6 {
+    width: 100%;
+  }
+}
+
 .contact-container {
-  margin-top: 25%;
   margin-left: 20%;
 }
 
