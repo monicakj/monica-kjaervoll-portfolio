@@ -98,18 +98,12 @@
   padding: 50px 0 50px 0;
 }
 
-@media only screen and (max-width: 425px) {
-  .about-main .row {
-    display: inline-flex;
-    flex-direction: column;
-  }
-  .about-main .about-img {
-    width: 100%;
-  }
-  .about-main .about-description {
-    width: 100%;
-    margin-top: 60px;
-  }
+.about-main .about-img {
+  width: 100%;
+}
+
+.about-main .about-description {
+  width: 100%;
 }
 
 .about-container {
