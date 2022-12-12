@@ -10,37 +10,38 @@
         color: white;
     }
 
+    p {
+        width: fit-content;
+    }
+
     .card {
-        margin-bottom: 100px;
         border: none;
         margin-top: 50px;
     }
 
     .card-body {
-        background-color: #f2f4f3;
+        background-color: #f3f3f3;
         padding-bottom: 30px;
     }
 
-    .work-btn {
+    .viewProject-btn {
         width: 200px;
-        height: 48px;
+        height: 50px;
         border-radius: 5px;
-        border: 1px solid #22333B;
         background-color: #22333B;
         color: white;
+        border: none;
+        margin: 0;
     }
-
-    .work-btn:hover {
-        background-color: white;
-        border: 1px solid black;
-        color: #22333B;
-        transition: 0.5s;
-    }
-
+    
     .card-img {
         padding: 1rem;
         margin-top: 30px;
-        background-color: white;
+        background-color: transparent;
+    }
+
+    .card-content {
+        padding: 1rem;
     }
 
 }
